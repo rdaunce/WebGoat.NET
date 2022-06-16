@@ -10,6 +10,7 @@
         @if (Model != null)
         {
             <p>Order: @Model.OrderId</p>
+            <p>@Html.Raw(@Model.ShipAddress)</p>
             <table class="receipt">
                 <tbody>
                     <tr>
